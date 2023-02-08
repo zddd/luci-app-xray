@@ -35,7 +35,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build ipk
-        uses: zddd/gh-action-sdk@master
+        uses: zddd/gh-action-openwrt-build-package@master
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.version }}
 
